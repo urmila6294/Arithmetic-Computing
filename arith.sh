@@ -7,3 +7,7 @@ echo "Three inputs are:a=$a b=$b c=$c"
 x=$(($a+$b*$c))
 echo "value of compute1 is:"$x
 
+#compute2
+y=$(($a*$b+$c))
+echo "value of compute2 is:"$y
+
