@@ -13,6 +13,12 @@ echo "value of compute2 is:"$y
 
 #compute3
 z=$(($c+$a/$b))
-echo "value of compute2 is:"$z
+echo "value of compute3 is:"$z
+
+#compute4
+p=$(($a%$b+$c))
+echo "value of compute4 is:"$p
+
+
 
 
