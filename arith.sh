@@ -27,5 +27,11 @@ Result[2]=$z
 Result[3]=$p
 echo "The Results of every Computation in Dictionary :" ${Result[@]}
 
+declare -a  arr_Result
+for (( i=0; i<4;i++ ))
+do
+arr_Result[$i]=${Result[$i]}
+done
+echo "value into array" ${arr_Result[@]}
 
 
