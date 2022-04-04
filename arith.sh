@@ -49,3 +49,9 @@ do
 done
 
 echo "The Result of every Computation in Descending Order : ${arr_Result[@]}"
+
+n=${#arr_Result[@]}
+for ((i=n-1; i>=0; i-- ))
+do
+echo "The Result of every Computation in Ascending order :${arr_Result[i]}"
+done
